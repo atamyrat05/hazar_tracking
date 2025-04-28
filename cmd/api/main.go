@@ -55,3 +55,9 @@ func InitConfig() error {
 	viper.SetConfigName("config")
 	return viper.ReadInConfig()
 }
+
+func InitConfig2() error {
+	viper.AddConfigPath("configs")
+	viper.SetConfigName("config")
+	return viper.ReadInConfig()
+}
