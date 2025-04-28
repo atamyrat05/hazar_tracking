@@ -1,0 +1,2 @@
+[0426/203814.972:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\atamy\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\ff022d0c-2db2-4cdf-8bcf-9d6d8a8a5314: Системе не удается найти указанный путь. (0x3)
+[0426/203819.096:ERROR:http_transport_win.cc(382)] HTTP status 403
