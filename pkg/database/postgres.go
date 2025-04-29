@@ -9,7 +9,7 @@ import (
 const (
 	UsersTable  = "users"
 	OrdersTable = "orders"
-	QRCodeTable = "qrcode"
+	QRCodeTable = "qrcodes"
 	PointsTable = "points"
 )
 

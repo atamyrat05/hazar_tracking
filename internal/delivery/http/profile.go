@@ -39,7 +39,7 @@ func (h *Handler) updateProfile(c *gin.Context) {
 	if data.Image_Url != nil {
 		err := utilits.RemoveFile(*data.Image_Url)
 		if err != nil {
-			c.JSON(http.StatusInternalServerError, gin.H{"error": "profildaki inki suraty pozup bolmady"})
+			c.JSON(http.StatusInternalServerError, gin.H{"error": "profildaki suraty pozup bolmady"})
 			return
 		}
 	}

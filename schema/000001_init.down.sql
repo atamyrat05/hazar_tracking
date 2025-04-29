@@ -1,0 +1,6 @@
+DROP TABLE IF EXISTS qrcodes;
+DROP TABLE IF EXISTS order_tracking_steps;
+DROP TABLE IF EXISTS orders;
+DROP TABLE IF EXISTS announcement;
+DROP TABLE IF EXISTS users;
+DROP TABLE IF EXISTS points;
